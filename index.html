@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lê Công Huy | Digital Art Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">LCH.</div>
+        <ul class="nav-links">
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-content">
+            <h1>Xin chào, tôi là <span>Lê Công Huy</span></h1>
+            <p>Sinh viên Thiết kế Mỹ thuật Số (Digital Art Design)</p>
+            <a href="#projects" class="btn">Khám phá tác phẩm</a>
+        </div>
+    </header>
+
+    <section id="about" class="section-padding">
+        <h2>Về Tôi</h2>
+        <div class="about-content">
+            <p>Tôi đam mê sáng tạo nội dung trực quan, từ thiết kế nhận diện thương hiệu (branding) cho đến minh họa nhân vật (character design). Tôi luôn thích thử nghiệm việc kết hợp các yếu tố văn hóa truyền thống vào phong cách thiết kế hiện đại để tạo ra những trải nghiệm thị giác mang đậm dấu ấn riêng.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding bg-light">
+        <h2>Dự Án Tiêu Biểu</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-img" style="background-color: #2c3e50;"></div>
+                <div class="project-info">
+                    <h3>G-Origin Branding</h3>
+                    <p>Thiết kế bộ nhận diện thương hiệu bao gồm logo, layout brochure và mockup billboard mang phong cách mecha.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img" style="background-color: #e74c3c;"></div>
+                <div class="project-info">
+                    <h3>Sắc Màu Chiến Trận Athanor</h3>
+                    <p>Thiết kế artbook, dàn trang và xây dựng hình ảnh nhân vật theo các phe phái mang phong cách fantasy.</p>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img" style="background-color: #f39c12;"></div>
+                <div class="project-info">
+                    <h3>F-BIZ Recruitment</h3>
+                    <p>Thiết kế ấn phẩm truyền thông, poster chiêu mộ thành viên câu lạc bộ với bảng màu tươi sáng, năng động.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <h2>Liên Hệ Hợp Tác</h2>
+        <form id="contactForm">
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Tên của bạn" required>
+            </div>
+            <div class="input-group">
+                <input type="email" id="email" placeholder="Email của bạn" required>
+            </div>
+            <div class="input-group">
+                <textarea id="message" rows="5" placeholder="Bạn muốn thiết kế gì?" required></textarea>
+            </div>
+            <button type="submit" class="btn">Gửi Tin Nhắn</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Lê Công Huy. Thiết kế và code với đam mê.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
