@@ -3,80 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lê Công Huy | Digital Art Portfolio</title>
+    <title>Lê Công Huy - Digital Art Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <nav id="navbar">
-        <div class="logo">LCH.</div>
-        <ul class="nav-links">
-            <li><a href="#about">Giới thiệu</a></li>
-            <li><a href="#projects">Dự án</a></li>
-            <li><a href="#contact">Liên hệ</a></li>
-        </ul>
-    </nav>
 
-    <header id="hero">
-        <div class="hero-content">
-            <h1>Xin chào, tôi là <span>Lê Công Huy</span></h1>
-            <p>Sinh viên Thiết kế Mỹ thuật Số (Digital Art Design)</p>
-            <a href="#projects" class="btn">Khám phá tác phẩm</a>
-        </div>
+    <header>
+        <div class="logo">PORTFOLIO<span>.</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Trang chủ</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#portfolio">Dự án</a></li>
+                <li><a href="#contact">Liên hệ</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <section id="about" class="section-padding">
-        <h2>Về Tôi</h2>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Xin chào, tôi là <span>Lê Công Huy</span></h1>
+            <h3>Digital Art Designer</h3>
+            <p>Đam mê kiến tạo hình ảnh, từ thiết kế nhân vật, bộ nhận diện thương hiệu đến việc đưa các họa tiết văn hóa truyền thống vào nghệ thuật đương đại.</p>
+            <a href="#portfolio" class="btn">Xem Tác Phẩm</a>
+        </div>
+        <div class="hero-image">
+            <img src="z7960616712361_88286704a6761f8a95fe653b06c7fc51.jpg" alt="Lê Công Huy">
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 class="section-title">Về <span>Tôi</span></h2>
         <div class="about-content">
-            <p>Tôi đam mê sáng tạo nội dung trực quan, từ thiết kế nhận diện thương hiệu (branding) cho đến minh họa nhân vật (character design). Tôi luôn thích thử nghiệm việc kết hợp các yếu tố văn hóa truyền thống vào phong cách thiết kế hiện đại để tạo ra những trải nghiệm thị giác mang đậm dấu ấn riêng.</p>
+            <div class="about-text">
+                <p>Tôi hiện là sinh viên chuyên ngành Digital Art Design tại Đại học FPT Cần Thơ. Phong cách thiết kế của tôi chịu ảnh hưởng mạnh mẽ bởi sự giao thoa giữa văn hóa đại chúng, game, anime và những giá trị truyền thống Việt Nam (như họa tiết trống đồng Đông Sơn, truyền thuyết Thánh Gióng).</p>
+                <p>Các mảng tập trung chính:</p>
+                <ul>
+                    <li>🎨 Character Design & Concept Art</li>
+                    <li>🖌️ Branding & Editorial Design</li>
+                    <li>🚀 2D Illustration</li>
+                </ul>
+            </div>
         </div>
     </section>
 
-    <section id="projects" class="section-padding bg-light">
-        <h2>Dự Án Tiêu Biểu</h2>
-        <div class="project-grid">
-            <div class="project-card">
-                <div class="project-img" style="background-color: #2c3e50;"></div>
-                <div class="project-info">
-                    <h3>G-Origin Branding</h3>
-                    <p>Thiết kế bộ nhận diện thương hiệu bao gồm logo, layout brochure và mockup billboard mang phong cách mecha.</p>
-                </div>
-            </div>
-            <div class="project-card">
-                <div class="project-img" style="background-color: #e74c3c;"></div>
-                <div class="project-info">
+    <section id="portfolio" class="portfolio">
+        <h2 class="section-title">Dự án <span>Nổi Bật</span></h2>
+        <div class="portfolio-grid">
+            
+            <div class="portfolio-item">
+                <img src="f.jpg" alt="Sắc màu chiến trận Athanor">
+                <div class="portfolio-overlay">
                     <h3>Sắc Màu Chiến Trận Athanor</h3>
-                    <p>Thiết kế artbook, dàn trang và xây dựng hình ảnh nhân vật theo các phe phái mang phong cách fantasy.</p>
+                    <p>Editorial / Illustration</p>
                 </div>
             </div>
-            <div class="project-card">
-                <div class="project-img" style="background-color: #f39c12;"></div>
-                <div class="project-info">
-                    <h3>F-BIZ Recruitment</h3>
-                    <p>Thiết kế ấn phẩm truyền thông, poster chiêu mộ thành viên câu lạc bộ với bảng màu tươi sáng, năng động.</p>
+
+            <div class="portfolio-item">
+                <img src="g.jpg" alt="G-Origin Branding">
+                <div class="portfolio-overlay">
+                    <h3>G-Origin Branding</h3>
+                    <p>Brand Identity / Logo</p>
                 </div>
+            </div>
+
+            <div class="portfolio-item">
+                <img src="s.jpg" alt="Concept Character Design">
+                <div class="portfolio-overlay">
+                    <h3>Character Sheets</h3>
+                    <p>Concept Art</p>
+                </div>
+            </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 class="section-title">Kết Nối Với <span>Tôi</span></h2>
+        <p class="contact-subtitle">Bạn có dự án thú vị hoặc muốn hợp tác? Hãy để lại thông tin nhé!</p>
+        
+        <div class="contact-container">
+            <div class="contact-info">
+                <h3>Thông tin liên hệ</h3>
+                <p><i class="fas fa-envelope"></i> email.cuaban@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +84 123 456 789</p>
+                <p><i class="fas fa-map-marker-alt"></i> Cần Thơ, Việt Nam</p>
+                
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form id="collab-form">
+                    <div class="input-group">
+                        <input type="text" id="name" placeholder="Tên của bạn" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" placeholder="Email của bạn" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" rows="5" placeholder="Nội dung hợp tác hoặc ý tưởng của bạn..." required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Gửi Tin Nhắn <i class="fas fa-paper-plane"></i></button>
+                </form>
             </div>
         </div>
     </section>
 
-    <section id="contact" class="section-padding">
-        <h2>Liên Hệ Hợp Tác</h2>
-        <form id="contactForm">
-            <div class="input-group">
-                <input type="text" id="name" placeholder="Tên của bạn" required>
-            </div>
-            <div class="input-group">
-                <input type="email" id="email" placeholder="Email của bạn" required>
-            </div>
-            <div class="input-group">
-                <textarea id="message" rows="5" placeholder="Bạn muốn thiết kế gì?" required></textarea>
-            </div>
-            <button type="submit" class="btn">Gửi Tin Nhắn</button>
-        </form>
-    </section>
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="caption"></div>
+    </div>
 
     <footer>
-        <p>&copy; 2026 Lê Công Huy. Thiết kế và code với đam mê.</p>
+        <p>&copy; 2026 Lê Công Huy. All Rights Reserved.</p>
     </footer>
 
     <script src="script.js"></script>
